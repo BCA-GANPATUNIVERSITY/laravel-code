@@ -1,1 +1,11 @@
+<div>
+    <!-- He who is contented is rich. - Laozi -->
+     <h1>Upload file</h1>
+     <form action="upload" method="post" enctype="multipart/form-data">
+        @csrf
+        <input type="file" name="file" id="">
+        <button>Upload file</button>
+
+     </form>
+</div>
 
